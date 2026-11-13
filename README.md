@@ -39,6 +39,7 @@ Built and tested on macOS (arm64) only. The Linux paths (X11 backend, font fallb
 | `src/main.c`          | options, fonts, the window loop                                       |
 | `vendor/cui/`         | CUI 1.3.1 (MIT), as vendored by myra                                  |
 | `tests/`              | `test_pty.c`, `test_session.c` (headless), `test_view.c` (windowless CUI context), `smoke.py` (screenshots) |
+| `tests/compat.sh`     | by hand: opens vim, tmux, htop, fzf and others in `cui-repl`, prints what to check, records pass or fail in `build/compat-results.md` |
 
 ## Input
 
